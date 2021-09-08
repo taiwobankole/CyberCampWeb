@@ -1,0 +1,53 @@
+.container {
+    margin: 0 auto;
+    width:85;
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(70, 21, 70);
+    border-radius: 8px 0 0 8px;
+    margin-top: 4rem;
+    display: flex;
+    min-height: 40vh
+}
+
+.row {
+    width: 50%;
+}
+
+.hero-img {
+    width: 100%;
+    background-color: rgb(70, 21, 70);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.row {
+    margin: 2em auto;
+}
+
+.hero-title {
+    font-size: 20px;
+    line-height: 1.2;
+    color:White
+}
+
+.hero-highlight {
+    color:green;
+}
+
+.hero-text {
+    margin: 1.3em auto;
+    font-size: 0.9rem;
+    color:white;
+    line-height: 1.5;
+}
+
+.col {
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    color:white;
+}
